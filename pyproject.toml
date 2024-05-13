@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-2004-drf-4"
+version = "0.1.0"
+description = ""
+authors = ["Nguyen Duc Huy <nguyenduchuy1968@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+djangorestframework = "^3.15.1"
+mysqlclient = "^2.2.4"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
