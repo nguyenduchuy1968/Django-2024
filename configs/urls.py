@@ -2,7 +2,7 @@
 
 from django.urls import path
 # from cars.views import CarTestView, CarDetailView
-from cars.views import CarListCreateView
+from apps.cars.views import CarListCreateView
 
 
 urlpatterns = [
